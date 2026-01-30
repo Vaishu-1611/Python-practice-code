@@ -22,3 +22,4 @@ l1.extend(l2) #adds l2 elements to l1 at the end
 print(l1) 
 l1.clear() #removes all elements from the list
 print(l1) 
+
