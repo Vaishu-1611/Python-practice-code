@@ -17,5 +17,3 @@ avg()
 print("Thank You for using the average calculator!")
 avg()
 print("Thank You for using the average calculator!")
-
-
