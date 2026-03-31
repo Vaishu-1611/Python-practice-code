@@ -82,3 +82,32 @@ print(s)
 d = {1: "One", 2: "Two", 3: "Three"}
 s = set(d)
 print(s)
+
+s1 = {4, 12, 10, 9, 4, 13}
+print("Minimum element: ", min(s1))      
+print("Maximum element: ", max(s1))
+
+s = {5, 3, 9, 1, 7}
+
+# Sorting the set (converts it into a sorted list)
+sorted_s = sorted(s)
+
+print("Minimum element: ", sorted_s[0])
+print("Maximum element: ", sorted_s[-1])
+
+s = {5, 3, 9, 1, 7}
+
+# Initialize min and max with extreme values
+min_val = float('inf')
+max_val = float('-inf')
+
+# Iterate through the set to find min and max
+for ele in s:
+    if ele < min_val:
+        min_val = ele
+    if ele > max_val:
+        max_val = ele
+
+print("Minimum element:", min_val)
+print("Maximum element:", max_val)
+
