@@ -24,3 +24,14 @@ for items in l:
 print("the sum of numbers in list is:",sum)
 
 print("list after removing duplicates is:",list(set(l)))
+
+freq = {}
+for item in l:
+    if item in freq:
+        freq[item] += 1
+    else:
+        freq[item] = 1
+
+print("frequency of each number is:",freq)
+
+print("the reverse of the list is :",l[::-1])
