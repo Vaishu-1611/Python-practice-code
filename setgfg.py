@@ -110,4 +110,3 @@ for ele in s:
 
 print("Minimum element:", min_val)
 print("Maximum element:", max_val)
-
